@@ -1,13 +1,15 @@
 import React, { Fragment, Component } from "react";
 import Navbar from "./components/layout/Navbar";
+import UserItem from "./components/users/userItem";
 import "./App.css";
 
 class App extends Component {
   render() {
     return (
-      <nav className="navbar bg-primary">
+      <div className="App">
         <Navbar />
-      </nav>
+        <UserItem />
+      </div>
     );
   }
 }
